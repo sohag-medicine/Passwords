@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Site Logo" id="logo">
+        <h1>الحصول على اكواد الطلبة الجدد</h1>
+    </header>
+    <div class="search-container">
+        <input type="text" id="nationalID" placeholder="ادخل رقم البطاقة">
+        <button onclick="retrieveInfo()">Search</button>
+    </div>
+    <table id="resultTable">
+        <thead>
+            <tr>
+                <th>اسم الطالب</th>
+                <th>كود الدخول</th>
+                <th>كلمة المرور</th>
+            </tr>
+        </thead>
+        <tbody id="resultBody">
+            <!-- Results will be injected here -->
+        </tbody>
+    </table>
+    <p id="footer-paragraph">
+        <br>كلمة المرور الافتراضية "رقم البطاقة" ويتم استخدامها مرة واحده فقط ثم يجب على الطالب تغيرها بكلمة جديدة من اختياره (تحتوى على حروف وارقام ورموز ولا تقل عن 8 عناصر )<br>
+        عند الدخول اول مره سيطلب منك الموقع تغير السؤال السري بسؤال جديد من اختيار الطالب و يجب ان لاتكون اجابة السؤال السري هو رقم البطاقة الشخصية
+    <br><strong><a href="http://193.227.46.85/moodle/" target="_blank" style="font-size: 30px;">منصة مودل التعليمية</a></strong><br>
+	<br>  <strong><a href="http://193.227.46.44/ZAD_MED/Zad.aspx" target="_blank" style="font-size: 30px;">منصة زاد التعليمية</a></strong><br>
+	
+	</p>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
